@@ -1,0 +1,112 @@
+ /* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+           * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+         /*global styles */
+/*here starts css Global*/
+* {
+    /* #2 #font #faces */
+    font-family: 'Arial', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+ body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+}
+/*here starts css App bar*/
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+/*here starts css Channel list*/
+ul {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+}
+ /*styles for chat area*/
+p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+}
+ strong {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
+}
+ h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+ em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+a {
+    color:black;
+}
+/*here starts css Tab bar*/
+strong {
+   /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+   text-transform: uppercase;
+}
+#button-id {
+    background-color: white;
+    text-align: center;
+}
+#button-id button {
+    background-color: white;
+    text-align: center;
+    border: none;
+    font-size: 13px;
+    width: 33%;
+    height: 72px;
+    padding: 32px;
+}
+#button-id button .selected{
+    border: 4px;
+    color: #3F51B5;
+}
+#tabbar-id {
+    width: 80%
+}
+/*here starts css Messages*/
+.message p{
+    width: 80%;
+    margin: 8px 0px 8px 0px;
+    font-size: medium;
+    background-color: white;
+    padding: 16px
+}
+.message button {
+    background-color: #CDDC39;
+    color: black;
+    text-transform: uppercase;
+}
+.message em{
+font-size: larger;
+font-style: normal    
+}
+.message h3 {
+    color: black
+}
+li .selected {
+    border-left: #3F51B5;
+    color: #3F51B5;
+}
+li {
+    padding: 8px;
+    font: 16px;
+}
